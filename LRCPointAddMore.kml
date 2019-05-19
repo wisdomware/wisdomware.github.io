@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkLinkControl>
+    <Update>
+      <targetHref>LRCPoint.kml</targetHref>
+	 <Create>
+	 <Document targetId="doc1">
+      <Placemark id="pm11">
+          <name>pm11, Henry said Success is guaranteed!</name>
+          <Point>
+            <coordinates>-95.39,40.42,200</coordinates>
+          </Point>
+        </Placemark>
+		</Document>
+	 </Create>
+    </Update>
+  </NetworkLinkControl>
+</kml>

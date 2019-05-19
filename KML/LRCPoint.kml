@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document id="doc1">
+  <Placemark id="pm123">
+    <name>point123</name>
+    <Point>
+      <coordinates>-95.44,40.42,10</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark id="pm456">
+    <name>point456</name>
+      <Point>
+      <coordinates>-95.43,40.42,50</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark id="pm789">
+    <name>point789</name>
+      <Point>
+      <coordinates>-95.41,40.42,100</coordinates>
+    </Point>
+  </Placemark>
+      <Placemark id="pm10">
+    <name>point10</name>
+      <Point>
+      <coordinates>-95.40,40.42,150</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

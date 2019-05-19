@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NetworkLinkControl>
     <Update>
-      <targetHref>LRCPoint.kml</targetHref>
+      <targetHref>c:/Output/Network/LRCPoint.kml</targetHref>
 	 <Create>
 	 <Document targetId="doc1">
       <Placemark id="pm11">

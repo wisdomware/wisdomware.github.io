@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NetworkLinkControl>
   <Update>
-    <targetHref>https://wisdomware.github.io/KML/LRCPoint.kml</targetHref>
+    <targetHref>LRCPoint.kml</targetHref>
        <Create>
          <Document targetId="doc1">
            <Placemark id="pm11">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
 <Document id="doc1">
+  <name>HQN Document Name</name>
   <Placemark id="pm123">
     <name>point123</name>
     <Point>

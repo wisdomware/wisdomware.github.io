@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <input type="button" value="Run" onclick="doRun();" />
+    </div>
+
+    <script crossorigin="anonymous">
+
+        var boundingUrl = `https://cors.bridged.cc/https://data-live.flightradar24.com/zones/fcgi/feed.js?bounds=45.14,36.14,-78.28,-69.28&faa=1&satellite=1&mlat=1&flarm=1&adsb=1&gnd=1&air=1&vehicles=1&estimated=1&maxage=14400&gliders=1&stats=1`
+
+        async function doRun() {
+            await fetch(boundingUrl, {
+                method: 'GET',
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Headers': '*',
+                    'x-cors-grida-api-key': 'ead5f440-99e0-491a-9c76-8f0e6a1b405c',
+
+
+                }
+            })
+
+                .then(response => console.log(response.status))
+                .catch(error => console.error(error))
+        }
+
+    </script>
+
+</body>
+</html>
